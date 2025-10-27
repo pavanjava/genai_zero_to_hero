@@ -1,0 +1,61 @@
+llmlingua==0.2.2
+pydantic==2.12.3
+fastapi==0.120.0
+uvicorn==0.38.0
+requests>=2.32.5
+starlette>=0.48.0
+
+# AI
+ollama>=0.6.0
+openai>=1.109.1
+anthropic>=0.71.0
+
+# agentic framework
+agno>=2.2.1
+
+# tools and misc deps
+ddgs>=9.6.1
+python-dotenv>=1.2.1
+pydantic>=2.10.6
+pydantic-settings>=2.11.0
+
+# document processing
+arxiv
+pypdf
+googlesearch-python
+pycountry
+
+# embedding deps
+fastembed
+
+# deep learning and llm training
+transformers
+torch
+torchvision
+accelerate
+
+# llama-index deps for RAG applications
+llama-index-core>=0.14.6
+llama-index-llms-anthropic>=0.9.7
+llama-index-llms-openai>=0.6.5
+llama-index-llms-ollama>=0.8.0
+llama-index-llms-google-genai>=0.6.2
+llama-index-embeddings-ollama>=0.8.3
+llama-index-vector-stores-qdrant>=0.8.6
+llama-index-retrievers-bm25>=0.6.5
+
+# qdrant vector store
+qdrant-client>=1.15.1
+
+# core NLP library
+spacy>=3.8.7
+
+# data warngling
+pandas>=2.3.3
+
+# document chunking lib
+chonkie[all]>=1.4.0
+
+# tokenizers
+tokenizers>=0.22.1
+sentence-transformers>=5.1.2
